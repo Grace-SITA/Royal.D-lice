@@ -1,0 +1,142 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    background: url(une-salle-de-restaurant-avec-des-murs-en-briques-rouges-des-tables-et-des-tuyaux-en-bois-au-plafond.jpg) no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 24px;
+    color: white;
+}
+
+nav h1 span {
+    color: #f4c542;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #f4c542;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.reservation-form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    color: #333;
+}
+
+.reservation-form label {
+    font-weight: bold;
+}
+
+.reservation-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.reservation-form button.btn {
+    background-color: #f4c542;
+    color: black;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.reservation-form button .btn:hover {
+    background-color: #d4af37;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.social-icons a {
+margin-right: 15px;
+display: inline-block;
+transition: opacity 0.3s ease;
+}
+
+.social-icons a img {
+width: 24px;
+height: 24px;
+}
+
+.social-iconsa:hover{
+opacity: 0.7;
+}
+
+.weather{
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.weather img{
+width: 24px;
+height: 24px;
+}
